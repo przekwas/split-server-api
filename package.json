@@ -1,0 +1,36 @@
+{
+  "name": "split-server-api",
+  "version": "1.0.0",
+  "description": "a rest api split from our boilerplate",
+  "main": "src/server.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "nodemon"
+  },
+  "keywords": [
+    "rest",
+    "api",
+    "headless",
+    "api",
+    "splitting",
+    "monorepo"
+  ],
+  "author": "cool hand luke",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "@types/morgan": "^1.9.4",
+    "@types/node": "^20.1.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
